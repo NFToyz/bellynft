@@ -1,0 +1,9 @@
+dist
+soljson*
+artifacts
+bin
+deployments
+cache
+.vscode
+.next
+contracts

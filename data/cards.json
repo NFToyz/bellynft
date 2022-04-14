@@ -1,0 +1,245 @@
+[{
+  "_id": {
+    "$oid": "624e2dd1c0f9c9f22ddd7a0d"
+  },
+  "name": "Sushi Rice",
+  "id": 1,
+  "type": "ingredient",
+  "description": "Glistening grains of short grain rice, seasoned with sweetened rice vinegar."
+},{
+  "_id": {
+    "$oid": "624e2f7b60f4525a140c6170"
+  },
+  "name": "Nori",
+  "id": 2,
+  "type": "ingredient",
+  "description": "Dried seaweed, pressed into thin, crackly sheets."
+},{
+  "_id": {
+    "$oid": "624e35fc60f4525a140c6172"
+  },
+  "name": "Cucumber",
+  "id": 3,
+  "type": "ingredient",
+  "description": "Cool, crunchy, and refreshing."
+},{
+  "_id": {
+    "$oid": "624e362460f4525a140c6173"
+  },
+  "name": "Kappa Maki",
+  "id": 4,
+  "type": "recipe",
+  "description": "The simplest sushi. Just rice, nori, and cucumber!",
+  "ingredients": [
+    {
+      "id": 1,
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "amount": 1
+    },
+    {
+      "id": 3,
+      "amount": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "624e389760f4525a140c6174"
+  },
+  "name": "Avocado",
+  "id": 5,
+  "type": "ingredient",
+  "description": "California dreamin’ indeed."
+},{
+  "_id": {
+    "$oid": "624f8313f24af00cf8d56f83"
+  },
+  "name": "Tempura Shrimp",
+  "id": 6,
+  "type": "ingredient",
+  "description": "Crunchy battered shrimp - and the tails are edible too!"
+},{
+  "_id": {
+    "$oid": "624f832cf24af00cf8d56f84"
+  },
+  "name": "Mayo",
+  "id": 7,
+  "type": "ingredient",
+  "description": "Japanese mayo is the best mayo, for sushi at least."
+},{
+  "_id": {
+    "$oid": "624f8349f24af00cf8d56f85"
+  },
+  "name": "Green Onions",
+  "id": 8,
+  "type": "ingredient",
+  "description": "Bright and onion-y, they lighten the flavor (and add a pop of color) of any sushi roll."
+},{
+  "_id": {
+    "$oid": "624f84d7f24af00cf8d56f86"
+  },
+  "name": "Crunchy Shrimp Roll",
+  "id": 9,
+  "type": "recipe",
+  "description": "Tempura shrimp, avocado, green onions, and kewpie mayo - a favorite for a reason!",
+  "ingredients": [
+    {
+      "id": 1,
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 1
+    },
+    {
+      "id": 6,
+      "amount": 1
+    },
+    {
+      "id": 7,
+      "amount": 1
+    },
+    {
+      "id": 8,
+      "amount": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "624f84fef24af00cf8d56f87"
+  },
+  "name": "Bacon",
+  "id": 10,
+  "type": "ingredient",
+  "description": "Bacon makes everything better."
+},{
+  "_id": {
+    "$oid": "624f8557f24af00cf8d56f88"
+  },
+  "name": "Bacon Crunchy Shrimp Roll",
+  "id": 11,
+  "type": "recipe",
+  "description": "The Crunchy Shrimp Roll... but better. A SushiDay original!",
+  "ingredients": [
+    {
+      "id": 10,
+      "amount": 1
+    },
+    {
+      "id": 9,
+      "amount": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "624f8568f24af00cf8d56f89"
+  },
+  "name": "Smoked Salmon",
+  "id": 12,
+  "type": "ingredient",
+  "description": "Good on bagels, AND in sushi!"
+},{
+  "_id": {
+    "$oid": "624f857af24af00cf8d56f8a"
+  },
+  "name": "Cream Cheese",
+  "id": 13,
+  "type": "ingredient",
+  "description": "The creaminess cannot be beat."
+},{
+  "_id": {
+    "$oid": "624f85c2f24af00cf8d56f8b"
+  },
+  "name": "Philadelphia Roll",
+  "id": 14,
+  "type": "recipe",
+  "description": "A classic for a reason - smoked salmon + cream cheese is oh, so good.",
+  "ingredients": [
+    {
+      "id": 1,
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "amount": 1
+    },
+    {
+      "id": 12,
+      "amount": 1
+    },
+    {
+      "id": 13,
+      "amount": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "624f85e0f24af00cf8d56f8c"
+  },
+  "name": "Imitation Crab",
+  "id": 15,
+  "type": "ingredient",
+  "description": "It may not be anything like real crab, but surimi is delicious in its own right!"
+},{
+  "_id": {
+    "$oid": "624f8638f24af00cf8d56f8d"
+  },
+  "name": "California Roll",
+  "id": 16,
+  "type": "recipe",
+  "description": "THE Cali classic - imitation crab, avocado, cucumber, and kewpie mayo.",
+  "ingredients": [
+    {
+      "id": 5,
+      "amount": 1
+    },
+    {
+      "id": 7,
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 15,
+      "amount": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "624f8666f24af00cf8d56f8e"
+  },
+  "name": "Tamago",
+  "id": 17,
+  "type": "ingredient",
+  "description": "A rolled egg omelet that’s just a little sweet, just a little savory."
+},{
+  "_id": {
+    "$oid": "624f8690f24af00cf8d56f8f"
+  },
+  "name": "Tamago Nigiri",
+  "id": 18,
+  "type": "recipe",
+  "description": "You can never go wrong with eggs over rice.",
+  "ingredients": [
+    {
+      "id": 1,
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "amount": 1
+    },
+    {
+      "id": 17,
+      "amount": 1
+    }
+  ]
+}]
