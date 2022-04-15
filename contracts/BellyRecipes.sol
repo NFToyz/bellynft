@@ -3,7 +3,6 @@ pragma solidity ^0.8.13;
 
 import "@openzeppelin/contracts/interfaces/IERC1155.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
 import "./IRecipes.sol";
 import "./BellyErrors.sol";
 
@@ -16,7 +15,7 @@ interface IBellyNft is IERC1155 {
   ) external;
 }
 
-contract BellyRecipes is AccessControl, IRecipes, Pausable {
+contract BellyRecipes is AccessControl, IRecipes {
   event RecipeAdded(uint256 indexed recipeId);
   event RecipeRemoved(uint256 indexed recipeId);
 
@@ -96,15 +95,5 @@ contract BellyRecipes is AccessControl, IRecipes, Pausable {
     }
 
     _;
-  }
-
-  /*** Pause / Unpause ***/
-
-  function pause() public onlyRole(DEFAULT_ADMIN_ROLE) {
-    _pause();
-  }
-
-  function unpause() public onlyRole(DEFAULT_ADMIN_ROLE) {
-    _unpause();
   }
 }
